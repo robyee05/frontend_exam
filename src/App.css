@@ -1,0 +1,96 @@
+.App {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+}
+
+.inputBox {
+    margin-top: 50px;
+    border: 1px solid #727272;
+    border-radius: 16px;
+
+    h5 {
+        text-align: left;
+        background-color: bisque;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        padding-left: 15px;
+    }
+}
+
+.radios label {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.radios input {
+    cursor: pointer;
+}
+
+.inputTask {
+    height: 38px;
+    border-radius: 7px;
+    border: 1px solid #727272;
+}
+
+.tools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+    Button {
+        width: 125px;
+    }
+}
+
+.listBoxes {
+    display: flex;
+    margin-top: 25px;
+}
+
+.listBox {
+    width: 350px;
+    height: 450px;
+    padding-bottom: 5px;
+    border: 1px solid #727272;
+    border-radius: 16px;
+
+
+    p {
+        background-color: bisque;
+        text-align: left;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        padding-left: 15px;
+        padding-top: 5px;
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80px;
+    height: 450px;
+    padding: 0 15px;
+    gap: 15px;
+
+    button {
+        border-radius: 65%;
+        padding: 5px;
+    }
+}
+
+Button {
+    cursor: pointer;
+}
