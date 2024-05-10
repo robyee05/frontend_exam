@@ -18,7 +18,7 @@ function App() {
   }
 
   const enterInput = (e) => {
-    if (e.key == 'Enter') {
+    if (e.key === 'Enter') {
       addTodo();
     }
   }
