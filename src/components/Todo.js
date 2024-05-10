@@ -5,17 +5,15 @@ const Todo = ({ todo, onChange }) => {
 
     const handleCheckboxChange = () => {
         setChecked(!checked);
-        onChange(); // Átadjuk az állapotváltozást a szülő komponensnek
+        onChange();
     };
 
     return (
         <div className='todoContainer'>
-            <div>
-                <label>
-                    <input type="checkbox" name="" id="listed" checked={checked} onChange={handleCheckboxChange} />
-                    {todo}
-                </label>
-            </div>
+            <label >
+                <input type="checkbox" name="" id="listed" checked={checked} onChange={handleCheckboxChange} />
+                {todo}
+            </label>
         </div>
     );
 };
